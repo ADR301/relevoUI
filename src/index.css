@@ -1,0 +1,47 @@
+.app-container {
+  display: flex;
+  height: 100vh;
+  background-color: #000;
+  color: white;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #111;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post {
+  background: #222;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.post-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
