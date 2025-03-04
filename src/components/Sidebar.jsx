@@ -3,14 +3,14 @@ function Sidebar() {
       <div className="sidebar">
         <h2>Instagram</h2>
         <ul>
-          <li>Home</li>
-          <li>Search</li>
-          <li>Explore</li>
-          <li>Reels</li>
-          <li>Messages</li>
-          <li>Notifications</li>
-          <li>Create</li>
-          <li>Profile</li>
+          <li><img src="pictures\home.png" alt="Home" /> Home</li>
+          <li><img src="pictures\search.png" alt="Search" />Search</li>
+          <li><img src="pictures\explore.png" alt="Explore" />Explore</li>
+          <li><img src="pictures\reels.png" alt="Reels" />Reels</li>
+          <li><img src="pictures\messages.png" alt="Messages" />Messages</li>
+          <li><img src="pictures\heart.png" alt="Notifications" />Notifications</li>
+          <li><img src="pictures\create.png" alt="Create" />Create</li>
+          <li><img src="pictures\profile.png" alt="Profile" />Profile</li>
         </ul>
       </div>
     );
