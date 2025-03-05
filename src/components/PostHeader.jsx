@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function PostHeader(props) {
     return (
         <div className="post-header">
