@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
 
 function Comments(props) {
     const [like, setLike] = useState(false);
@@ -10,8 +11,8 @@ function Comments(props) {
     return (
         <div className="comments">
             <p>
-                <strong>{props.username}</strong>: {props.text} 
-                <img onClick={toggleLike} src={like ? "pictures/liked.png" : "pictures/heart.png"} alt="like" />
+                <img className="profile-img" src={props.profileimg} alt="profile" /> <strong>{props.username}</strong>: {props.text} 
+                <img onClick={toggleLike} className="heart-img" src={like ? "pictures/liked.png" : "pictures/heart.png"} alt="like" />
             </p> 
         </div>
     );

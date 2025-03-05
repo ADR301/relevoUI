@@ -1,3 +1,7 @@
+:root{
+  background-color: #000;
+}
+
 .app-container {
   display: flex;
   height: 100vh;
@@ -13,6 +17,7 @@
 .sidebar img {
   width: 24px;  
   height: auto;
+  margin-right: 5px;
 }
 
 .sidebar h2 {
@@ -31,6 +36,7 @@
   margin-left: 10px;
   cursor: pointer;
 }
+
 
 
 .main-content {
@@ -94,12 +100,20 @@
   max-width: 500px;
 }
 
-.comments img {
-  width: 10px;
-  height: auto;
+.comments .heart-img {
+  width: 14px;
+  max-height: 14px;
   margin-left: 500px;
   max-width: 100px;
   cursor: pointer;
+}
+
+.comments .profile-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .toggle-image {

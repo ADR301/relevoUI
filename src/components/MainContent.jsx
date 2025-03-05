@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 function MainContent(props) {
     return (
         <div className="main-content">

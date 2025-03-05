@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+/* eslint-disable react/prop-types */
+import { useState } from 'react';
 import Comments from './Comments';
 
 function PostFooter(props) {
@@ -16,9 +17,9 @@ function PostFooter(props) {
             
             {showComments && (
                 <div className="comments">
-                    <Comments username="Dale" text="Masarap" />
-                    <Comments username="Relevo" text="Kahit" />
-                    <Comments username="Godoy" text="Walang Sauce" />
+                    <Comments profileimg="pictures/pic1.jpg" username="Dale" text="Masarap" />
+                    <Comments profileimg="pictures/pic2.jpg" username="Relevo" text="Kahit" />
+                    <Comments profileimg="pictures/pic3.jpg" username="Godoy" text="Walang Sauce" />
                 </div>
             )}
         </div>
